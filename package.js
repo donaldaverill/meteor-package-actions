@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript@0.1.6');
   api.use([
-    'fourquet:reflux-core',
+    'fourquet:reflux-core@0.3.0',
   ], [
     'server',
     'client',
@@ -20,7 +20,7 @@ Package.onUse(function(api) {
   });
   api.use(
     [
-      'fourquet:reflux',
+      'fourquet:reflux@0.3.0',
     ], [
       'server',
       'client',

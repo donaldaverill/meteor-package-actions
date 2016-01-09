@@ -2,7 +2,8 @@
 Actions for Meteor
 --
 
-An umbrella package for [Reflux](https://github.com/reflux/reflux-core) with a new namespace. Works well with Stores, Routes, and Logs (coming soon).
+#### An umbrella package for [Reflux](https://github.com/reflux/reflux-core) with a new namespace.
+Works well with Stores, Routes, and Logs (coming soon).
 
 Reflux needs to be included in the app with a package such as [fourquet:reflux-core](https://github.com/fourquet/meteor-package-reflux-core),  [fourquet:reflux](https://github.com/fourquet/meteor-package-reflux) or from [NPM](https://www.npmjs.com/package/reflux-core).
 
