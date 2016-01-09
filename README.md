@@ -1,19 +1,19 @@
+# Actions for Meteor
 [![Build Status](https://travis-ci.org/fourquet/meteor-package-actions.svg?branch=master)](https://travis-ci.org/fourquet/meteor-package-actions)
----
-## Actions for Meteor
-#### An umbrella package for [Reflux](https://github.com/reflux/reflux-core) with a new namespace.
+
+An umbrella package for [Reflux](https://github.com/reflux/reflux-core) with a new namespace.
+
+### Install
+`meteor add fourquet:actions`
 
 Works well with Stores, Routes, and Logs (coming soon).
 
 Reflux needs to be included in the app with a package such as [fourquet:reflux-core](https://github.com/fourquet/meteor-package-reflux-core),  [fourquet:reflux](https://github.com/fourquet/meteor-package-reflux) or from [NPM](https://www.npmjs.com/package/reflux-core).
 
-```
-$ meteor add fourquet:actions
-```
+Example:
+```javascript
+// example.js
 
-[Example](https://github.com/fourquet/meteor-package-actions/tree/master/example):
-
-```js
 if (Meteor.isClient) {
   Session.setDefault('counter', 0);
   Actions.Client = Actions.createActions([
@@ -54,6 +54,10 @@ if (Meteor.isServer) {
   }, timerSpeed);
 }
 ```
+
+See the
+[example](https://github.com/fourquet/meteor-package-actions/tree/master/example) app for more.
+
 
 #### Version
 0.0.1
