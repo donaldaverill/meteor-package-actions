@@ -1,10 +1,10 @@
 # Actions for Meteor
-[![Build Status](https://travis-ci.org/fourquet/meteor-package-actions.svg?branch=master)](https://travis-ci.org/fourquet/meteor-package-actions)
-
 An umbrella package for [Reflux](https://github.com/reflux/reflux-core) with a new namespace.
 
 ### Install
 `meteor add fourquet:actions`
+
+[![Build Status](https://travis-ci.org/fourquet/meteor-package-actions.svg?branch=master)](https://travis-ci.org/fourquet/meteor-package-actions)
 
 Works well with Stores, Routes, and Logs (coming soon).
 
